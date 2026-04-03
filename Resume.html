@@ -1,0 +1,195 @@
+    <html>
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        <title>Resume</title>
+        <link rel = "stylesheet" href = "Resume_style.css">
+        <script>
+            function showSection(SectionID){
+                document.getElementById("resume_section").style.display = "none";
+                document.getElementById("contact_section").style.display = "none";
+                document.getElementById(SectionID).style.display = "block";
+            }
+        </script>
+    </head>
+    <body>
+        <div class = "container" id="mainContainer">
+            <div class = "side">
+                <div class = "pfp">
+                    <img src = "image.png">
+                </div>
+                <div class = "bio">
+                    <div class = "name">
+                        <h1 class = "nameA">Abdulelah Alzahrani</h1>
+                    </div>
+                    <ul class = "navi">
+                        <li class = "first" onclick = "showSection('resume_section')">Resume</li>
+                        <li onclick = "showSection('contact_section')">Contact</li>
+                    </ul>
+                    <ul class = "icons">
+                        <li><img src = "icons8-linkedin-30.png" width = "20" height = "20" class = "icon"><span class = "icon-text">Linkedin</span></li>
+                        <li><img src = "icons8-github-30.png" width = "20" height = "20" class = "icon"><span class = "icon-text">Github</span></li>
+                        <li><img src = "icons8-x-30.png" width = "20" height = "20" class = "icon"><span class = "icon-text">X</span></li>
+                    </ul>
+                    <!--<a class = "contact" href="tel:+966501529306">+966 50 152 9306</a>-->
+                    <!--<a class = "contact" href = "mailto:Abdulelah.zaharni1@gmail.com">Abdulelah.zaharni1@gmail.com</a>-->
+                    <a class = "buttons" href="path/to/your/file.pdf" download>
+                        <button type="button" class = "button">Download CV</button>
+                    </a>
+                </div>
+            </div>
+            <div class = "content">
+                <div id = "resume_section">
+                <div class = "heado">
+                <h2>Resume.</h2>
+                </div>
+                <h1 class = "title">Software Engineerer</h1>
+                <p class = "dec">Student at University of Jeddah. Computer Sicence Department</p>
+                <div class = "resume">
+                    <div class = "about_me">
+                        <div class = "about_me_1">
+                            <h1 class = "about_me_title">About Me</h1>
+                            <div class = "message spec_hover"> 
+                                <span>‘Motivated Software Engineering student at the University of Jeddah with a strong academic foundation in the fullsoftware development life cycle (SDLC). Passionate about leveraging technical expertise to support Saudi Arabia’s digital transformation and committed to lifelong learning and professional excellence. ”
+                                </span>
+                            </div>
+                        </div>
+                        <div class = "about_me_1 ">
+                            <h1 class = "about_me_title">Strengths</h1>
+                            <div class  = "skills_container"> 
+                                <span class = "skill">HTML</span>
+                                <span class = "skill">Python</span>
+                                <span class = "skill">JavaScript</span>
+                                <span class = "skill">UML</span>
+                                <span class = "skill">SDLC</span>
+                                <span class = "skill">Design Patterns</span>
+                                <span class = "skill">Agile Scrum</span>
+                                <span class = "skill">Testing</span>
+                                <span class = "skill">Github/Git</span>
+                            </div>
+                            <h1 class = "about_me_title">Languages</h1>
+                            <div class="languages">
+                                <div class="language-row">
+                                    <p class="language">Arabic</p>
+                                    <div class="segment-bar" style="--level: 4;"></div>
+                                </div>
+                                <div class="language-row">
+                                    <p class="language">English</p>
+                                    <div class="segment-bar" style="--level: 2.5;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "education">
+                        <h1 class = "about_me_title">Education</h1>
+                        <div class ="education_spec spec_hover">
+                            <div>
+                                <P class = "education_name">B.Sc. in Software Engineering</P>
+                                <p class = "education_place">University of Jeddah</p>
+                                <p class = "education_info">Current GPA: 4.26 / 5.0</p>
+                                <p class = "education_time"><span>2022</span><span>Present</span></p>
+                            </div>
+                        </div>
+                        <div class ="education_spec spec_hover">
+                            <div>
+                            <P class = "education_name">HS. Natural Sience Diploma</P>
+                            <p class = "education_place">Abdullah Al-Thaqafi High School</p>
+                            <p class = "education_info">Graduated with a cumulative average of 96%</p>
+                            <p class = "education_time"><span>2019</span><span>2022</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "cer">
+                        <h1 class = "about_me_title">Certifications</h1>
+                        <div class ="cer_spec spec_hover">
+                            <div class = "cer_details">
+                                <P class = "education_name">Agile Foundations</P>
+                                <p class = "education_place">Linkedin Learning</p>
+                                <p class = "education_info"> Focused on Agile principles and software development frameworks.</p>
+                            </div>
+                            <div class = "cer_img">
+                                <img src = "a.png">
+                            </div>
+                        </div>
+                        <div class ="cer_spec spec_hover">
+                            <div class = "cer_details">
+                                <P class = "education_name">Getting Started With Python</P>
+                                <p class = "education_place">University of Michigan through Coursera</p>
+                                <p class = "education_info">Focused on the basic practices of the programming language Python</p>
+                            </div>
+                            <div class = "cer_img">
+                                <img src = "p.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "projects">
+                        <h1 class = "about_me_title">Projects</h1>
+                        <div class ="project_spec">
+                            <div class = "project_details spec_hover">
+                                <div>
+                                <P class = "education_name">Android Application Development</P>
+                                <p class = "education_place">University Project</p>
+                                <p class = "pro_info">• Developed a native Android application using XML and Java/Kotlin principles.</p>
+                                <p class = "pro_info">• Managed the development lifecycle using Agile Scrum methodology, dividing the project into 4 focused sprints.</p>
+                                <p class = "pro_info">• Utilized Git for version control and collaborative code management.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div id = "contact_section" style = "display:none;">
+                <div class = "heado">
+                <h2>Contact.</h2>
+                </div>
+                    <div class = "contact">
+                        <div>
+                        <h1 class = "about_me_title">Contact Info</h1>
+                        <div class = "contact_info">
+                            <div class = "contact_spec spec_hover"> 
+                                <img src = "emailb.png" class = "phone_ico">
+                                <p>Abdulelah.zaharni1@gmail.com</p>
+                            </div>
+                            <div class = "contact_spec spec_hover"> 
+                                <img src = "phoneb.png" class = "phone_ico">
+                                <p>966+ 50 152 9306</p>
+                            </div>
+                            <div class = "contact_spec spec_hover"> 
+                                <img src = "locationb.png" class = "phone_ico">
+                                <p>Jeddah, Suadi Arabia</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="form">
+                            <h1 class="about_me_title">Message Me</h1>
+                            <form class="input_contact">
+                                <div class="inputs">
+                                    <div class="field">
+                                        <label>Name</label>
+                                        <input type="text" name="name" class="input" placeholder="Your Name">
+                                    </div>
+                                    <div class="field">
+                                        <label>Email</label>
+                                        <input type="email" name="email" class="input" placeholder="Your Email">
+                                    </div>
+                                    <div class="field">
+                                        <label>Subject</label>
+                                        <input type="text" name="subject" class="input" placeholder="Subject">
+                                    </div>
+                                </div>
+                                <div class="textarea_container">
+                                    <div>
+                                        <label>Message</label>
+                                    </div>
+                                    <textarea name="message" class="input input_message" placeholder="Write something..."></textarea>
+                                </div>
+                                <div class = "submit_button">
+                                    <input type = "submit">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
