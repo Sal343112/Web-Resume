@@ -104,12 +104,13 @@ body {
     margin-bottom:5vh;
 }
 
-.icons li {
+.icons li a{
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     color: white;
+    text-decoration: none;
 }
 
 .icon {
@@ -124,13 +125,13 @@ body {
     transition: all 0.5s ease;
 }
 
-.icons li:hover .icon-text {
+.icons li a:hover .icon-text {
     max-width: 120px;
     opacity: 1;
     margin-left: 10px;
 }
 
-.icons li:hover .icon {
+.icons li a:hover .icon {
     transform: translateX(-2px);
 }
 
