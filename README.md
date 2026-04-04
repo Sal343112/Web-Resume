@@ -11,7 +11,7 @@ A responsive personal resume website built with **HTML** and **CSS**. This proje
 
 ## Demo
 
-![Web-Resume Screenshot](screenshot.png)
+![Web-Resume Screenshot](Screenshot.png)
 <sup>Add a screenshot of your resume web page for a better preview.</sup>
 
 ## Getting Started
